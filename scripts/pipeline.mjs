@@ -134,8 +134,8 @@ async function saveListing(db, listing, scores) {
     await db.execute({
       sql: `INSERT OR REPLACE INTO scores (
         listing_id, composite_score, passes_hard_filters, fail_reasons,
-        akhil_drive_min, jayshree_transit_min, jayshree_walk_min,
-        jayshree_transfers, jayshree_transit_route, newton_drive_min,
+        oreo_drive_min, sugar_cookie_transit_min, sugar_cookie_walk_min,
+        sugar_cookie_transfers, sugar_cookie_transit_route, newton_drive_min,
         kitchen_modernity, natural_light, bathroom_quality, overall_condition,
         bedroom_size_score, walk_coffee, walk_park, walk_grocery,
         walk_restaurant, walk_library, walk_transit_stop,
@@ -145,9 +145,9 @@ async function saveListing(db, listing, scores) {
       args: [
         id, scores.composite_score, scores.passes_hard_filters ? 1 : 0,
         scores.fail_reasons || null,
-        scores.akhil_drive_min || null, scores.jayshree_transit_min || null,
-        scores.jayshree_walk_min || null, scores.jayshree_transfers || null,
-        scores.jayshree_transit_route || null, scores.newton_drive_min || null,
+        scores.oreo_drive_min || null, scores.sugar_cookie_transit_min || null,
+        scores.sugar_cookie_walk_min || null, scores.sugar_cookie_transfers || null,
+        scores.sugar_cookie_transit_route || null, scores.newton_drive_min || null,
         scores.kitchen_modernity || null, scores.natural_light || null,
         scores.bathroom_quality || null, scores.overall_condition || null,
         scores.bedroom_size_score || null, scores.walk_coffee || null,
@@ -241,11 +241,11 @@ async function run() {
         // Commutes
         const commutes = await calculateCommutes(listing.lat, listing.lon);
         if (commutes) {
-          scores.akhil_drive_min = commutes.akhil_drive_min;
-          scores.jayshree_transit_min = commutes.jayshree_transit_min;
-          scores.jayshree_walk_min = commutes.jayshree_walk_min;
-          scores.jayshree_transfers = commutes.jayshree_transfers;
-          scores.jayshree_transit_route = commutes.jayshree_transit_route;
+          scores.oreo_drive_min = commutes.oreo_drive_min;
+          scores.sugar_cookie_transit_min = commutes.sugar_cookie_transit_min;
+          scores.sugar_cookie_walk_min = commutes.sugar_cookie_walk_min;
+          scores.sugar_cookie_transfers = commutes.sugar_cookie_transfers;
+          scores.sugar_cookie_transit_route = commutes.sugar_cookie_transit_route;
           scores.newton_drive_min = commutes.newton_drive_min;
         }
 

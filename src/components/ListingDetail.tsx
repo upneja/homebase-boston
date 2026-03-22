@@ -216,9 +216,9 @@ export default function ListingDetail({ listing }: { listing: Listing }) {
               Commute Times
             </h2>
             <div className="space-y-5">
-              <CommuteBar label="Akhil (drive)" minutes={listing.commute.akhilDrive} />
-              <CommuteBar label="Jayshree (transit)" minutes={listing.commute.jayshreeTransit} />
-              <CommuteBar label="Newton / parents (drive)" minutes={listing.commute.newtonDrive} />
+              <CommuteBar label="Oreo (drive)" minutes={listing.commute.oreoDrive} />
+              <CommuteBar label="Sugar Cookie (transit)" minutes={listing.commute.sugarCookieTransit} />
+              <CommuteBar label="Family / Newton (drive)" minutes={listing.commute.newtonDrive} />
             </div>
           </section>
 

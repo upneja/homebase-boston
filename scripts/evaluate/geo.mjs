@@ -45,18 +45,18 @@ export function isInTargetNeighborhood(lat, lon) {
 // ============================================================
 
 const COMMUTE_DESTINATIONS = {
-  akhil_work: {
+  oreo_work: {
     address: '330 Brookline Ave, Boston, MA 02215', // Shapiro Center
     lat: 42.3380,
     lon: -71.1065,
   },
-  jayshree_work: {
+  sugar_cookie_work: {
     address: '216 Massachusetts Ave, Boston, MA 02115',
     lat: 42.3475,
     lon: -71.0868,
   },
   newton: {
-    address: '80 Nardell Rd, Newton, MA 02459',
+    address: '80 [redacted] Rd, Newton, MA 02459',
     lat: 42.3290,
     lon: -71.2090,
   },
@@ -71,34 +71,34 @@ export async function calculateCommutes(lat, lon) {
   try {
     const results = {};
 
-    // Akhil: drive to Shapiro Center at 8am
-    const akhilDrive = await getRouteTime(
+    // Oreo: drive to Shapiro Center at 8am
+    const oreoDrive = await getRouteTime(
       lat, lon,
-      COMMUTE_DESTINATIONS.akhil_work.lat,
-      COMMUTE_DESTINATIONS.akhil_work.lon,
+      COMMUTE_DESTINATIONS.oreo_work.lat,
+      COMMUTE_DESTINATIONS.oreo_work.lon,
       'DRIVE',
       '08:00'
     );
-    results.akhil_drive_min = akhilDrive;
+    results.oreo_drive_min = oreoDrive;
 
-    // Jayshree: transit to 216 Mass Ave
-    const jayshreeTransit = await getRouteTime(
+    // Sugar Cookie: transit to 216 Mass Ave
+    const sugar_cookieTransit = await getRouteTime(
       lat, lon,
-      COMMUTE_DESTINATIONS.jayshree_work.lat,
-      COMMUTE_DESTINATIONS.jayshree_work.lon,
+      COMMUTE_DESTINATIONS.sugar_cookie_work.lat,
+      COMMUTE_DESTINATIONS.sugar_cookie_work.lon,
       'TRANSIT',
       '08:00'
     );
-    results.jayshree_transit_min = jayshreeTransit;
+    results.sugar_cookie_transit_min = sugar_cookieTransit;
 
     // Approximate walking portion of transit (we can't get this from Routes API directly)
     // Estimate based on distance to nearest transit stop
     const transit = findNearestTransit(lat, lon);
-    results.jayshree_walk_min = transit ? transit.walk_minutes : null;
-    results.jayshree_transfers = null; // Routes API doesn't expose this easily
-    results.jayshree_transit_route = transit ? transit.route : null;
+    results.sugar_cookie_walk_min = transit ? transit.walk_minutes : null;
+    results.sugar_cookie_transfers = null; // Routes API doesn't expose this easily
+    results.sugar_cookie_transit_route = transit ? transit.route : null;
 
-    // Newton: drive to Nardell Rd
+    // Newton: drive to [redacted] Rd
     const newtonDrive = await getRouteTime(
       lat, lon,
       COMMUTE_DESTINATIONS.newton.lat,

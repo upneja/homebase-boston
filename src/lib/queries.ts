@@ -70,8 +70,8 @@ export async function getListings(
 
   const sql = `
     SELECT l.*, s.composite_score, s.passes_hard_filters, s.fail_reasons,
-      s.akhil_drive_min, s.jayshree_transit_min, s.jayshree_walk_min,
-      s.jayshree_transfers, s.jayshree_transit_route, s.newton_drive_min,
+      s.oreo_drive_min, s.sugar_cookie_transit_min, s.sugar_cookie_walk_min,
+      s.sugar_cookie_transfers, s.sugar_cookie_transit_route, s.newton_drive_min,
       s.kitchen_modernity, s.natural_light, s.bathroom_quality,
       s.overall_condition, s.bedroom_size_score,
       s.walk_coffee, s.walk_park, s.walk_grocery, s.walk_restaurant,
@@ -103,8 +103,8 @@ export async function getListing(
   const listingResult = await db.execute({
     sql: `
       SELECT l.*, s.composite_score, s.passes_hard_filters, s.fail_reasons,
-        s.akhil_drive_min, s.jayshree_transit_min, s.jayshree_walk_min,
-        s.jayshree_transfers, s.jayshree_transit_route, s.newton_drive_min,
+        s.oreo_drive_min, s.sugar_cookie_transit_min, s.sugar_cookie_walk_min,
+        s.sugar_cookie_transfers, s.sugar_cookie_transit_route, s.newton_drive_min,
         s.kitchen_modernity, s.natural_light, s.bathroom_quality,
         s.overall_condition, s.bedroom_size_score,
         s.walk_coffee, s.walk_park, s.walk_grocery, s.walk_restaurant,
@@ -137,8 +137,8 @@ export async function getFavorites(): Promise<ListingWithScore[]> {
   const result = await db.execute({
     sql: `
       SELECT DISTINCT l.*, s.composite_score, s.passes_hard_filters, s.fail_reasons,
-        s.akhil_drive_min, s.jayshree_transit_min, s.jayshree_walk_min,
-        s.jayshree_transfers, s.jayshree_transit_route, s.newton_drive_min,
+        s.oreo_drive_min, s.sugar_cookie_transit_min, s.sugar_cookie_walk_min,
+        s.sugar_cookie_transfers, s.sugar_cookie_transit_route, s.newton_drive_min,
         s.kitchen_modernity, s.natural_light, s.bathroom_quality,
         s.overall_condition, s.bedroom_size_score,
         s.walk_coffee, s.walk_park, s.walk_grocery, s.walk_restaurant,

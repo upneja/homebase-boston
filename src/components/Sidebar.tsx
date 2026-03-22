@@ -63,8 +63,8 @@ export default function Sidebar() {
             </h1>
           </div>
           <p className="text-text-muted text-[11px] mt-1.5 font-body pl-[38px] leading-relaxed">
-            AI-powered apartment search<br />
-            <span className="text-accent/80">Boston 2026</span>
+            Made with love by Chocolate Chip w/ M&amp;Ms<br />
+            <span className="text-accent/80">for Oreo &amp; Sugar Cookie&rsquo;s Boston move</span>
           </p>
         </div>
 

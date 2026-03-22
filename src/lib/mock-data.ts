@@ -19,10 +19,10 @@ export interface Listing {
   description: string;
   sourceUrl: string;
   commute: {
-    akhilDrive: number;
-    jayshreeTransit: number;
-    jayshreeWalkMin: number;
-    jayshreeRoute: string;
+    oreoDrive: number;
+    sugarCookieTransit: number;
+    sugarCookieWalkMin: number;
+    sugarCookieRoute: string;
     newtonDrive: number;
   };
   walkability: {
@@ -98,10 +98,10 @@ export const listings: Listing[] = [
     description:
       "Brand new 21-unit elevator building near Forest Hills. In-unit W/D, central A/C, private balcony, open concept, engineered wood flooring, European cabinetry, quartz counters, stainless appliances, gas cooking, designer tile bathrooms, glass shower enclosures. Building has roof deck, recreation room, underground garage. One block from Forest Hills station.",
     commute: {
-      akhilDrive: 14,
-      jayshreeTransit: 32,
-      jayshreeWalkMin: 14,
-      jayshreeRoute: "Route 39 (Forest Hills \u2192 Back Bay)",
+      oreoDrive: 14,
+      sugarCookieTransit: 32,
+      sugarCookieWalkMin: 14,
+      sugarCookieRoute: "Route 39 (Forest Hills \u2192 Back Bay)",
       newtonDrive: 20,
     },
     walkability: {
@@ -135,11 +135,11 @@ export const listings: Listing[] = [
       failures: [],
     },
     aiSummary:
-      "Best value in the search \u2014 brand new construction at $3,300 for 2BR/2BA with in-unit W/D, central AC, underground garage, and pet-friendly. European cabinetry and quartz counters. Jayshree\u2019s commute is 32 min via Route 39 (within 40 min max but on the longer side). Near Forest Hills, not Centre St proper, so walkability to coffee/restaurants is 8\u201310 min.",
+      "Best value in the search \u2014 brand new construction at $3,300 for 2BR/2BA with in-unit W/D, central AC, underground garage, and pet-friendly. European cabinetry and quartz counters. Sugar Cookie\u2019s commute is 32 min via Route 39 (within 40 min max but on the longer side). Near Forest Hills, not Centre St proper, so walkability to coffee/restaurants is 8\u201310 min.",
     aiNotes: [
       "Incredible value \u2014 $700\u2013900/mo less than comparable new builds",
       "Brand new construction = no deferred maintenance issues",
-      "Jayshree commute is 32 min \u2014 within max but on the longer side",
+      "Sugar Cookie commute is 32 min \u2014 within max but on the longer side",
       "Not on Centre St \u2014 need to walk 8\u201310 min for restaurants/coffee",
       "Forest Hills is a transit hub but the area itself is less charming",
       "Cats & small dogs welcome \u2014 pet requirement met",
@@ -186,10 +186,10 @@ export const listings: Listing[] = [
     description:
       "MetroMark is a managed apartment community near Forest Hills. 2BR/2BA starting at $3,177. In-unit W/D, fitness center with yoga studio, on-site dog park, concierge, parking available. Currently offering 1 month FREE rent on select units. Near Forest Hills station and Route 39 bus.",
     commute: {
-      akhilDrive: 16,
-      jayshreeTransit: 35,
-      jayshreeWalkMin: 14,
-      jayshreeRoute: "Near Forest Hills, Rte 39 \u2192 Back Bay",
+      oreoDrive: 16,
+      sugarCookieTransit: 35,
+      sugarCookieWalkMin: 14,
+      sugarCookieRoute: "Near Forest Hills, Rte 39 \u2192 Back Bay",
       newtonDrive: 20,
     },
     walkability: {
@@ -230,7 +230,7 @@ export const listings: Listing[] = [
       source: "ApartmentRatings",
     },
     aiSummary:
-      "Incredible value at $3,177 + 1 month free \u2014 lowest price for a fully amenitized 2BR/2BA in the search. Gym, in-unit W/D, dog park on-site, concierge. But reviews flag thin walls/floors causing noise, smoking policy not enforced, and aggressive rent increases at renewal. Jayshree\u2019s commute is 35 min (within max). Parking confirmed but price TBD.",
+      "Incredible value at $3,177 + 1 month free \u2014 lowest price for a fully amenitized 2BR/2BA in the search. Gym, in-unit W/D, dog park on-site, concierge. But reviews flag thin walls/floors causing noise, smoking policy not enforced, and aggressive rent increases at renewal. Sugar Cookie\u2019s commute is 35 min (within max). Parking confirmed but price TBD.",
     aiNotes: [
       "Lowest price in the search for a full-amenity 2BR/2BA",
       "1 month FREE rent currently offered \u2014 net effective ~$2,912/mo",
@@ -240,7 +240,7 @@ export const listings: Listing[] = [
       "Thin walls/floors are the #1 complaint",
       "Smoking enforcement is poor \u2014 smoke in hallways",
       "Aggressive rent increases reported at lease renewal",
-      "Jayshree commute is 35 min \u2014 workable but not ideal",
+      "Sugar Cookie commute is 35 min \u2014 workable but not ideal",
       "Parking available \u2014 confirm price when touring",
     ],
     details: {
@@ -281,10 +281,10 @@ export const listings: Listing[] = [
     description:
       "B2E floor plan at Bell Olmsted Park. 2BR/2BA, 1,006 sq ft. Modern finishes, in-unit washer/dryer, 24-hour fitness center, resort-style pool, controlled-access garage, pet spa, landscaped courtyard. Near MBTA Route 39 bus and Green Line E.",
     commute: {
-      akhilDrive: 10,
-      jayshreeTransit: 25,
-      jayshreeWalkMin: 12,
-      jayshreeRoute: "Route 39 \u2192 Back Bay (walk to 216 Mass Ave)",
+      oreoDrive: 10,
+      sugarCookieTransit: 25,
+      sugarCookieWalkMin: 12,
+      sugarCookieRoute: "Route 39 \u2192 Back Bay (walk to 216 Mass Ave)",
       newtonDrive: 20,
     },
     walkability: {
@@ -325,7 +325,7 @@ export const listings: Listing[] = [
       source: "ApartmentRatings",
     },
     aiSummary:
-      "Highest amenity score in the search \u2014 24hr gym, pool, garage, in-unit W/D, pet spa. Great Route 39 access gives Jayshree a 25 min commute. But walkability is genuinely weak: nearest real coffee shop is 13 min, grocery is a convenience store. At $4,155 it\u2019s in budget but not a bargain. Best for someone who values building amenities over neighborhood walkability.",
+      "Highest amenity score in the search \u2014 24hr gym, pool, garage, in-unit W/D, pet spa. Great Route 39 access gives Sugar Cookie a 25 min commute. But walkability is genuinely weak: nearest real coffee shop is 13 min, grocery is a convenience store. At $4,155 it\u2019s in budget but not a bargain. Best for someone who values building amenities over neighborhood walkability.",
     aiNotes: [
       "Nearest cafe (Tbaar) is 13 min walk \u2014 no close coffee",
       "Grocery is a convenience store, not a full supermarket",
@@ -375,10 +375,10 @@ export const listings: Listing[] = [
     description:
       "Velo Forest Hills offers resort-style living near Forest Hills station. 2BR/2BA, ~950 sq ft. In-unit W/D, fitness center with yoga studio, swimming pool, cinema room, dog park, parking available. Steps from Forest Hills Orange Line and bus hub.",
     commute: {
-      akhilDrive: 18,
-      jayshreeTransit: 38,
-      jayshreeWalkMin: 15,
-      jayshreeRoute: "Near Forest Hills, Rte 39 / Orange Line",
+      oreoDrive: 18,
+      sugarCookieTransit: 38,
+      sugarCookieWalkMin: 15,
+      sugarCookieRoute: "Near Forest Hills, Rte 39 / Orange Line",
       newtonDrive: 18,
     },
     walkability: {
@@ -409,7 +409,7 @@ export const listings: Listing[] = [
     },
     hardFilterStatus: {
       passes: true,
-      failures: ["Borderline: Jayshree transit 38 min (close to 40 min max)"],
+      failures: ["Borderline: Sugar Cookie transit 38 min (close to 40 min max)"],
     },
     reviews: {
       rating: 3.2,
@@ -419,10 +419,10 @@ export const listings: Listing[] = [
       source: "ApartmentRatings",
     },
     aiSummary:
-      "Resort amenities (pool, cinema room, gym, dog park) at a reasonable $3,605. But thin walls and noise issues are a recurring complaint. Jayshree\u2019s commute is borderline at 38 min \u2014 close to the 40 min max. Near Forest Hills station for good transit access. Dog park is a plus for pet owners.",
+      "Resort amenities (pool, cinema room, gym, dog park) at a reasonable $3,605. But thin walls and noise issues are a recurring complaint. Sugar Cookie\u2019s commute is borderline at 38 min \u2014 close to the 40 min max. Near Forest Hills station for good transit access. Dog park is a plus for pet owners.",
     aiNotes: [
       "Resort-style amenities: pool, cinema room, gym, yoga, dog park",
-      "Jayshree commute is 38 min \u2014 borderline (40 min max)",
+      "Sugar Cookie commute is 38 min \u2014 borderline (40 min max)",
       "Thin walls are the #1 complaint across reviews",
       "Weed smoke in hallways reported by multiple reviewers",
       "Street noise is noticeable",
@@ -469,10 +469,10 @@ export const listings: Listing[] = [
     description:
       "Boutique 45-unit new construction near Green Street Orange Line station. 2BR/2BA, 1,077 sq ft. Floor-to-ceiling windows, in-unit W/D, fitness center, garage parking, rooftop terrace, elevator building. Walking distance to Centre St shops and restaurants.",
     commute: {
-      akhilDrive: 13,
-      jayshreeTransit: 30,
-      jayshreeWalkMin: 12,
-      jayshreeRoute: "Green St \u2192 Orange Line (may need transfer)",
+      oreoDrive: 13,
+      sugarCookieTransit: 30,
+      sugarCookieWalkMin: 12,
+      sugarCookieRoute: "Green St \u2192 Orange Line (may need transfer)",
       newtonDrive: 22,
     },
     walkability: {
@@ -504,11 +504,11 @@ export const listings: Listing[] = [
     hardFilterStatus: {
       passes: true,
       failures: [
-        "Maybe: Orange Line transit may require a transfer for Jayshree",
+        "Maybe: Orange Line transit may require a transfer for Sugar Cookie",
       ],
     },
     aiSummary:
-      "New boutique luxury at an excellent price \u2014 $3,300 for 1,077 sq ft with floor-to-ceiling windows, rooftop terrace, in-unit W/D, gym, and garage. Good walkability near Centre St (5\u20137 min). But Jayshree\u2019s transit may require a transfer (Orange Line \u2192 Green Line or walk) to reach 216 Mass Ave. Too new for reviews.",
+      "New boutique luxury at an excellent price \u2014 $3,300 for 1,077 sq ft with floor-to-ceiling windows, rooftop terrace, in-unit W/D, gym, and garage. Good walkability near Centre St (5\u20137 min). But Sugar Cookie\u2019s transit may require a transfer (Orange Line \u2192 Green Line or walk) to reach 216 Mass Ave. Too new for reviews.",
     aiNotes: [
       "Floor-to-ceiling windows \u2014 excellent natural light",
       "Boutique 45-unit building \u2014 less institutional feel",
@@ -516,7 +516,7 @@ export const listings: Listing[] = [
       "Great price for new construction: $3,300",
       "Good walkability to Centre St shops (5\u20137 min)",
       "Green St Orange Line is 2 min walk",
-      "Transit may require a transfer for Jayshree \u2014 Orange to Green/walk",
+      "Transit may require a transfer for Sugar Cookie \u2014 Orange to Green/walk",
       "No reviews yet \u2014 too new",
       "1,077 sq ft is spacious for the price",
     ],
@@ -560,10 +560,10 @@ export const listings: Listing[] = [
     description:
       "Lovely 2BR/2BA condo on Peter Parley Rd. 2nd floor, 1,093 sq ft. In-unit W/D, central A/C, HVAC gas heat, stainless appliances, granite countertops with island, walk-in shower, custom walk-in closet, patio, hardwood floors. 1 dedicated off-street parking spot. Near Centre St shops and Green Street T.",
     commute: {
-      akhilDrive: 15,
-      jayshreeTransit: 30,
-      jayshreeWalkMin: 13,
-      jayshreeRoute: "Route 39 \u2192 Back Bay",
+      oreoDrive: 15,
+      sugarCookieTransit: 30,
+      sugarCookieWalkMin: 13,
+      sugarCookieRoute: "Route 39 \u2192 Back Bay",
       newtonDrive: 22,
     },
     walkability: {
@@ -604,7 +604,7 @@ export const listings: Listing[] = [
       "Granite + island kitchen is nice but not as modern as quartz/European cabinets",
       "Walk-in shower and custom closet are excellent touches",
       "Centre St walkability is solid at 7\u20138 min",
-      "Orange Line at Green St is 5 min walk but requires transfer for Jayshree",
+      "Orange Line at Green St is 5 min walk but requires transfer for Sugar Cookie",
       "Route 39 access is further \u2014 about 8\u201310 min walk",
       "Patio is a nice bonus",
       "1,093 sq ft is spacious",
@@ -646,10 +646,10 @@ export const listings: Listing[] = [
     description:
       "2BR/2BA at 1443 Beacon in the heart of Coolidge Corner. ~1,000 sq ft. In-unit W/D, gym, pool, parking available, pet-friendly. Heat included. Currently waiving last month\u2019s rent and security deposit. Steps from Green Line C and D, surrounded by shops, restaurants, and Coolidge Corner Theater.",
     commute: {
-      akhilDrive: 10,
-      jayshreeTransit: 20,
-      jayshreeWalkMin: 10,
-      jayshreeRoute: "C Line \u2192 Hynes Convention Center",
+      oreoDrive: 10,
+      sugarCookieTransit: 20,
+      sugarCookieWalkMin: 10,
+      sugarCookieRoute: "C Line \u2192 Hynes Convention Center",
       newtonDrive: 15,
     },
     walkability: {
@@ -690,10 +690,10 @@ export const listings: Listing[] = [
       source: "Google Reviews",
     },
     aiSummary:
-      "Best walkability score in the search \u2014 Coolidge Corner is a vibrant neighborhood with everything within 3\u20135 min walk. Jayshree\u2019s commute is excellent at 20 min via C Line. Heat included helps offset the $3,925 price. But reviews flag construction noise, dated finishes for the price, and a small gym. No last month or security deposit currently waived.",
+      "Best walkability score in the search \u2014 Coolidge Corner is a vibrant neighborhood with everything within 3\u20135 min walk. Sugar Cookie\u2019s commute is excellent at 20 min via C Line. Heat included helps offset the $3,925 price. But reviews flag construction noise, dated finishes for the price, and a small gym. No last month or security deposit currently waived.",
     aiNotes: [
       "Best walkability: Coolidge Corner has coffee, grocery, restaurants within 3\u20135 min",
-      "Jayshree commute is excellent \u2014 20 min via C Line",
+      "Sugar Cookie commute is excellent \u2014 20 min via C Line",
       "Heat included saves ~$100\u2013150/mo",
       "No last month rent, no security deposit currently",
       "Reviews flag constant construction noise",
@@ -701,7 +701,7 @@ export const listings: Listing[] = [
       "Gym is small per reviews",
       "Pool is a rare amenity",
       "Pet-friendly building",
-      "Coolidge Corner has the neighborhood village feel Jayshree wants",
+      "Coolidge Corner has the neighborhood village feel Sugar Cookie wants",
     ],
     details: {
       parking: "Available (price TBD)",
@@ -742,10 +742,10 @@ export const listings: Listing[] = [
     description:
       "Spacious 2BR/1BA in Brookline Village. ~1,000 sq ft. In-unit W/D, dishwasher, AC, hardwood floors. Heat and water included. Off-street parking available ($200/mo). Cats and dogs welcome ($50/mo pet fee). Near D Line Brookline Village station.",
     commute: {
-      akhilDrive: 8,
-      jayshreeTransit: 20,
-      jayshreeWalkMin: 9,
-      jayshreeRoute: "D Line (Brookline Village \u2192 Hynes/Copley)",
+      oreoDrive: 8,
+      sugarCookieTransit: 20,
+      sugarCookieWalkMin: 9,
+      sugarCookieRoute: "D Line (Brookline Village \u2192 Hynes/Copley)",
       newtonDrive: 16,
     },
     walkability: {
@@ -779,12 +779,12 @@ export const listings: Listing[] = [
       failures: ["Only 1 bathroom (need 2)"],
     },
     aiSummary:
-      "Great value with heat and water included, excellent commute for both (8 min drive for Akhil, 20 min transit for Jayshree). But only 1 bath is a hard fail. No gym. Pet-friendly with cats and dogs ($50/mo fee). Parking available at $200/mo. Hardwood floors and spacious layout.",
+      "Great value with heat and water included, excellent commute for both (8 min drive for Oreo, 20 min transit for Sugar Cookie). But only 1 bath is a hard fail. No gym. Pet-friendly with cats and dogs ($50/mo fee). Parking available at $200/mo. Hardwood floors and spacious layout.",
     aiNotes: [
       "FAILS: Only 1 bathroom",
       "No gym \u2014 no building amenities",
       "Heat + water included saves ~$150\u2013200/mo",
-      "Excellent commute: 8 min drive (Akhil), 20 min transit (Jayshree)",
+      "Excellent commute: 8 min drive (Oreo), 20 min transit (Sugar Cookie)",
       "D Line at Brookline Village is 2 min walk",
       "Cats and dogs OK ($50/mo pet fee)",
       "Parking available at $200/mo extra",
@@ -829,10 +829,10 @@ export const listings: Listing[] = [
     description:
       "B6 floor plan at The Brookliner, 1,027 sq ft. 2BR/2BA. Calacatta Quartz countertops, GE smart appliances, LVT flooring. Peloton fitness center, rooftop terrace with fire pits, pet spa, covered garage with EV charging. Green Line C at Washington Square. Currently offering up to 2 months free on 14-month lease.",
     commute: {
-      akhilDrive: 12,
-      jayshreeTransit: 18,
-      jayshreeWalkMin: 8,
-      jayshreeRoute: "Green Line C \u2192 Hynes (4 min walk to office)",
+      oreoDrive: 12,
+      sugarCookieTransit: 18,
+      sugarCookieWalkMin: 8,
+      sugarCookieRoute: "Green Line C \u2192 Hynes (4 min walk to office)",
       newtonDrive: 15,
     },
     walkability: {
@@ -882,7 +882,7 @@ export const listings: Listing[] = [
       "With 2 months free on 14-mo lease: ~$4,386/mo net effective",
       "Best unit finishes in the search \u2014 Calacatta Quartz, smart appliances",
       "Best walkability \u2014 everything within 1\u20134 min",
-      "Best commute for Jayshree \u2014 18 min total, 8 min walking",
+      "Best commute for Sugar Cookie \u2014 18 min total, 8 min walking",
       "Best reviews: 4.7/5 (32 reviews)",
       "Peloton gym is excellent",
       "Pet spa for future cat",
@@ -927,10 +927,10 @@ export const listings: Listing[] = [
     description:
       "New construction at Hancock Village / Franklin. 2BR/2BA, ~1,000 sq ft. In-unit W/D, 25,000 sq ft community center with gym and pool, parking included. Currently offering 1 month free rent + $10K Jordan\u2019s Furniture credit. Pet-friendly community.",
     commute: {
-      akhilDrive: 15,
-      jayshreeTransit: 40,
-      jayshreeWalkMin: 14,
-      jayshreeRoute: "Bus \u2192 Green Line (likely requires transfer)",
+      oreoDrive: 15,
+      sugarCookieTransit: 40,
+      sugarCookieWalkMin: 14,
+      sugarCookieRoute: "Bus \u2192 Green Line (likely requires transfer)",
       newtonDrive: 12,
     },
     walkability: {
@@ -962,7 +962,7 @@ export const listings: Listing[] = [
     hardFilterStatus: {
       passes: false,
       failures: [
-        "Borderline: Jayshree transit 40 min (at absolute max, likely requires transfer)",
+        "Borderline: Sugar Cookie transit 40 min (at absolute max, likely requires transfer)",
       ],
     },
     reviews: {
@@ -973,9 +973,9 @@ export const listings: Listing[] = [
       source: "ApartmentRatings / Google",
     },
     aiSummary:
-      "Great amenities with a 25,000 sq ft community center (gym + pool) and generous promos (1 month free + $10K Jordan\u2019s Furniture). But far from transit \u2014 Jayshree\u2019s commute is 40 min with likely transfers, at the absolute max. Old Hancock Village had mice/mold issues; the Franklin (new) portion is better but managed by the same company. Close to Newton (12 min drive).",
+      "Great amenities with a 25,000 sq ft community center (gym + pool) and generous promos (1 month free + $10K Jordan\u2019s Furniture). But far from transit \u2014 Sugar Cookie\u2019s commute is 40 min with likely transfers, at the absolute max. Old Hancock Village had mice/mold issues; the Franklin (new) portion is better but managed by the same company. Close to Newton (12 min drive).",
     aiNotes: [
-      "BORDERLINE: Jayshree transit 40 min \u2014 at absolute max, likely requires transfer",
+      "BORDERLINE: Sugar Cookie transit 40 min \u2014 at absolute max, likely requires transfer",
       "25,000 sq ft community center is massive",
       "Pool access \u2014 rare in Boston",
       "Promo: 1 month free + $10K Jordan\u2019s Furniture credit",
@@ -1025,10 +1025,10 @@ export const listings: Listing[] = [
     description:
       "Luxury 1BR+den (used as 2BR) in Coolidge Corner. 825 sq ft. In-unit W/D, gym, central AC, elevator building. Garage parking available ($300/mo). Cats ($50/mo), dogs ($75/mo). Steps from C and D Green Line stops. Surrounded by Coolidge Corner shops and restaurants.",
     commute: {
-      akhilDrive: 10,
-      jayshreeTransit: 20,
-      jayshreeWalkMin: 10,
-      jayshreeRoute: "C/D Line \u2192 Hynes Convention Center",
+      oreoDrive: 10,
+      sugarCookieTransit: 20,
+      sugarCookieWalkMin: 10,
+      sugarCookieRoute: "C/D Line \u2192 Hynes Convention Center",
       newtonDrive: 15,
     },
     walkability: {
@@ -1075,7 +1075,7 @@ export const listings: Listing[] = [
       "FAILS: $4,400 broker fee",
       "Luxury finishes \u2014 kitchen scores 9/10",
       "Best walkable neighborhood in the search",
-      "Excellent commute: 20 min for Jayshree, 10 min drive for Akhil",
+      "Excellent commute: 20 min for Sugar Cookie, 10 min drive for Oreo",
       "Cats $50/mo, dogs $75/mo",
       "1+den marketed as 2BR \u2014 verify den size",
     ],
@@ -1117,10 +1117,10 @@ export const listings: Listing[] = [
     description:
       "New construction 2BR/2BA in West Roxbury. ~1,000 sq ft. In-unit W/D, central AC, off-street parking included, pet-friendly. 1 month free rent, no broker fee. Available now. Bus connections to Forest Hills and downtown.",
     commute: {
-      akhilDrive: 22,
-      jayshreeTransit: 45,
-      jayshreeWalkMin: 15,
-      jayshreeRoute: "Bus connections (likely requires transfer)",
+      oreoDrive: 22,
+      sugarCookieTransit: 45,
+      sugarCookieWalkMin: 15,
+      sugarCookieRoute: "Bus connections (likely requires transfer)",
       newtonDrive: 15,
     },
     walkability: {
@@ -1152,14 +1152,14 @@ export const listings: Listing[] = [
     hardFilterStatus: {
       passes: false,
       failures: [
-        "Jayshree commute 45+ min with transfers (max 40)",
+        "Sugar Cookie commute 45+ min with transfers (max 40)",
         "No gym",
       ],
     },
     aiSummary:
-      "Good value new construction with 1 month free and no broker fee. In-unit W/D, central AC, parking, pets OK. But too far from Jayshree\u2019s work \u2014 45+ min transit with bus transfers is a hard fail. No gym either. The 22 min drive for Akhil is also the longest in the search. Close to Newton (15 min) is a plus.",
+      "Good value new construction with 1 month free and no broker fee. In-unit W/D, central AC, parking, pets OK. But too far from Sugar Cookie\u2019s work \u2014 45+ min transit with bus transfers is a hard fail. No gym either. The 22 min drive for Oreo is also the longest in the search. Close to Newton (15 min) is a plus.",
     aiNotes: [
-      "FAILS: Jayshree commute 45+ min with transfers",
+      "FAILS: Sugar Cookie commute 45+ min with transfers",
       "FAILS: No gym",
       "1 month free rent \u2014 net effective ~$3,575/mo",
       "No broker fee",
@@ -1169,7 +1169,7 @@ export const listings: Listing[] = [
       "West Roxbury is quiet and suburban",
       "Far from transit \u2014 8 min walk to nearest bus stop",
       "Close to Newton (15 min drive)",
-      "Akhil drive is longest in search at 22 min",
+      "Oreo drive is longest in search at 22 min",
     ],
     details: {
       parking: "Off-street (included)",
@@ -1208,10 +1208,10 @@ export const listings: Listing[] = [
     description:
       "Contemporary 2BR/2BA at The Tremont, a 66-unit new construction on Tremont St. 24-hour fitness center, roof deck with grills and skyline views, courtyard garden, dog run. In-unit W/D, wood floors, stone countertops, stainless appliances. Assigned garage parking. Steps from Route 39 bus and short walk to Brigham Circle (E Line).",
     commute: {
-      akhilDrive: 8,
-      jayshreeTransit: 22,
-      jayshreeWalkMin: 10,
-      jayshreeRoute: "Route 39 \u2192 Back Bay (or walk to E Line Brigham Circle)",
+      oreoDrive: 8,
+      sugarCookieTransit: 22,
+      sugarCookieWalkMin: 10,
+      sugarCookieRoute: "Route 39 \u2192 Back Bay (or walk to E Line Brigham Circle)",
       newtonDrive: 22,
     },
     walkability: {
@@ -1238,7 +1238,7 @@ export const listings: Listing[] = [
     },
     hardFilterStatus: { passes: true, failures: [] },
     aiSummary:
-      "Excellent new find on the E Line / Route 39 corridor. Checks every box: in-unit W/D, gym, garage parking, pet-friendly, 2BR/2BA, new construction — all at $3,540. The roof deck with skyline views is a great bonus. Walkability to coffee/grocery is moderate (7-10 min) but the transit access is strong. Short drive for Akhil (8 min). One of the best overall values.",
+      "Excellent new find on the E Line / Route 39 corridor. Checks every box: in-unit W/D, gym, garage parking, pet-friendly, 2BR/2BA, new construction — all at $3,540. The roof deck with skyline views is a great bonus. Walkability to coffee/grocery is moderate (7-10 min) but the transit access is strong. Short drive for Oreo (8 min). One of the best overall values.",
     aiNotes: [
       "New construction, 66 units — well-managed",
       "Roof deck with grills + skyline views",
@@ -1246,7 +1246,7 @@ export const listings: Listing[] = [
       "Route 39 stops right outside on Tremont St",
       "Brigham Circle E Line is ~5 min walk",
       "Walkability to grocery is 10 min — you'd probably drive",
-      "Mission Hill adjacent — Jayshree's colleague warned about living too close to students, but Tremont St is south of main campus area",
+      "Mission Hill adjacent — Sugar Cookie's colleague warned about living too close to students, but Tremont St is south of main campus area",
     ],
     details: {
       parking: "Assigned garage parking (included or low cost)",
@@ -1286,10 +1286,10 @@ export const listings: Listing[] = [
     description:
       "Brand new 24-unit construction at The Laneway. 2BR/1.5BA with central A/C, in-unit W/D, gym, conference room, lounge, shared kitchen, bike storage, roof deck with summer kitchen and skyline views. Water, hot water, sewer included. No undergrad students policy. Near Route 39 and Roxbury Crossing Orange Line.",
     commute: {
-      akhilDrive: 8,
-      jayshreeTransit: 22,
-      jayshreeWalkMin: 10,
-      jayshreeRoute: "Route 39 \u2192 Back Bay (or walk to E Line Brigham Circle)",
+      oreoDrive: 8,
+      sugarCookieTransit: 22,
+      sugarCookieWalkMin: 10,
+      sugarCookieRoute: "Route 39 \u2192 Back Bay (or walk to E Line Brigham Circle)",
       newtonDrive: 24,
     },
     walkability: {
@@ -1367,10 +1367,10 @@ export const listings: Listing[] = [
     description:
       "Modern LEED Silver building at Jackson Square. 2BR/2BA, 1,075 sq ft. Fitness center, garage parking, bike storage. Pet-friendly. Near MBTA Orange Line (Jackson Square) and Southwest Corridor bike path. Currently offering 2 months free rent. On-site laundry (not confirmed in-unit \u2014 call to verify).",
     commute: {
-      akhilDrive: 12,
-      jayshreeTransit: 28,
-      jayshreeWalkMin: 12,
-      jayshreeRoute: "Route 39 \u2192 Back Bay",
+      oreoDrive: 12,
+      sugarCookieTransit: 28,
+      sugarCookieWalkMin: 12,
+      sugarCookieRoute: "Route 39 \u2192 Back Bay",
       newtonDrive: 22,
     },
     walkability: {
@@ -1448,10 +1448,10 @@ export const listings: Listing[] = [
     description:
       "2BR/1.5BA at The Longwood, 1575 Tremont St. Private balcony in every unit. Fitness center, concierge, shared entertainment spaces, outdoor dog area. Reserved parking. Stainless appliances, gas cooking, individually controlled heat and A/C. On-site laundry (not in-unit). Near Brigham Circle (E Line) and Route 39 bus.",
     commute: {
-      akhilDrive: 7,
-      jayshreeTransit: 20,
-      jayshreeWalkMin: 10,
-      jayshreeRoute: "E Line (Brigham Circle) \u2192 Symphony",
+      oreoDrive: 7,
+      sugarCookieTransit: 20,
+      sugarCookieWalkMin: 10,
+      sugarCookieRoute: "E Line (Brigham Circle) \u2192 Symphony",
       newtonDrive: 22,
     },
     walkability: {
@@ -1481,7 +1481,7 @@ export const listings: Listing[] = [
       failures: ["No in-unit laundry (on-site shared only)"],
     },
     aiSummary:
-      "Best commute balance in the search \u2014 7 min drive for Akhil, 20 min transit for Jayshree via E Line. Gym, parking, pet-friendly, private balcony. But no in-unit laundry is a hard fail. The building is older and finishes are dated compared to new construction. Decent price for the location. Concierge is a nice touch.",
+      "Best commute balance in the search \u2014 7 min drive for Oreo, 20 min transit for Sugar Cookie via E Line. Gym, parking, pet-friendly, private balcony. But no in-unit laundry is a hard fail. The building is older and finishes are dated compared to new construction. Decent price for the location. Concierge is a nice touch.",
     aiNotes: [
       "FAILS: No in-unit laundry (on-site shared only)",
       "Best commute combo: 7 min drive + 20 min transit",
@@ -1529,10 +1529,10 @@ export const listings: Listing[] = [
     description:
       "Boutique 32-unit luxury building near Stony Brook Orange Line. 2BR/2BA, 870 sq ft. Chef\u2019s kitchen with huge island, gas cooking, stainless appliances, high ceilings, recessed lighting. In-unit laundry, central air. Parking available nearby. Near Route 39 bus.",
     commute: {
-      akhilDrive: 13,
-      jayshreeTransit: 30,
-      jayshreeWalkMin: 13,
-      jayshreeRoute: "Route 39 \u2192 Back Bay",
+      oreoDrive: 13,
+      sugarCookieTransit: 30,
+      sugarCookieWalkMin: 13,
+      sugarCookieRoute: "Route 39 \u2192 Back Bay",
       newtonDrive: 22,
     },
     walkability: {
@@ -1562,14 +1562,14 @@ export const listings: Listing[] = [
       failures: ["No gym in building"],
     },
     aiSummary:
-      "The chef\u2019s kitchen with gas cooking and huge island is exactly the modern kitchen Akhil wants. In-unit W/D, central AC, pet-friendly, parking \u2014 hits most requirements. But no gym. At $3,400 for a brand-new 2BR/2BA with these finishes, it\u2019s exceptional value. Boutique 32-unit building means quieter than big complexes. Good walkability to Centre St shops.",
+      "The chef\u2019s kitchen with gas cooking and huge island is exactly the modern kitchen Oreo wants. In-unit W/D, central AC, pet-friendly, parking \u2014 hits most requirements. But no gym. At $3,400 for a brand-new 2BR/2BA with these finishes, it\u2019s exceptional value. Boutique 32-unit building means quieter than big complexes. Good walkability to Centre St shops.",
     aiNotes: [
       "FAILS: No gym (32-unit boutique building)",
       "Chef\u2019s kitchen with island is the best kitchen layout in the search",
       "Gas cooking \u2014 a real perk for anyone who cooks",
       "High ceilings + recessed lighting = modern feel",
       "32 units = quieter, more personal building",
-      "Stony Brook Orange Line is 4 min walk but requires transfer for Jayshree",
+      "Stony Brook Orange Line is 4 min walk but requires transfer for Sugar Cookie",
       "Route 39 bus is accessible but further walk",
       "Could join a nearby gym (Healthworks, YMCA) to fill the gap",
     ],
@@ -1592,19 +1592,19 @@ export const listings: Listing[] = [
 
 export const keyLocations = [
   {
-    name: "Akhil\u2019s Work (BIDMC Shapiro)",
+    name: "Oreo\u2019s Work (Longwood)",
     lat: 42.3386,
     lon: -71.1044,
     type: "work" as const,
   },
   {
-    name: "Jayshree\u2019s Work (216 Mass Ave)",
+    name: "Sugar Cookie\u2019s Work (216 Mass Ave)",
     lat: 42.3454,
     lon: -71.0854,
     type: "work" as const,
   },
   {
-    name: "Parents (80 Nardell Rd, Newton)",
+    name: "Family (Newton)",
     lat: 42.337,
     lon: -71.2092,
     type: "family" as const,
