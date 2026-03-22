@@ -1189,13 +1189,13 @@ export const listings: Listing[] = [
   {
     id: "13",
     title: "The Tremont — In-Unit W/D, Gym, Garage, Roof Deck",
-    price: 3540,
+    price: 5065,
     address: "1480 Tremont St, Boston, MA 02120",
     neighborhood: "JP",
     beds: 2,
     baths: 2,
     sqft: 950,
-    score: 83,
+    score: 50,
     photoUrl: "https://picsum.photos/800/533?random=1501",
     isNew: true,
     hasGym: true,
@@ -1234,12 +1234,18 @@ export const listings: Listing[] = [
       commute: 85,
       walkability: 55,
       amenities: 95,
-      value: 88,
+      value: 25,
     },
-    hardFilterStatus: { passes: true, failures: [] },
+    hardFilterStatus: {
+      passes: false,
+      failures: [
+        "Over budget: actual 2BR pricing is $5,065-$5,826/mo (heat/HW included)",
+      ],
+    },
     aiSummary:
-      "Excellent new find on the E Line / Route 39 corridor. Checks every box: in-unit W/D, gym, garage parking, pet-friendly, 2BR/2BA, new construction — all at $3,540. The roof deck with skyline views is a great bonus. Walkability to coffee/grocery is moderate (7-10 min) but the transit access is strong. Short drive for Oreo (8 min). One of the best overall values.",
+      "Over budget: actual 2BR pricing is $5,065-$5,826/mo (heat/HW included). Checks every box: in-unit W/D, gym, garage parking, pet-friendly, 2BR/2BA, new construction — but at $5,065-$5,826/mo significantly over budget. The roof deck with skyline views is a great bonus. Walkability to coffee/grocery is moderate (7-10 min) but the transit access is strong. Short drive for Oreo (8 min). Not viable at this price point.",
     aiNotes: [
+      "OVER BUDGET: Actual 2BR pricing is $5,065-$5,826/mo (heat/HW included)",
       "New construction, 66 units — well-managed",
       "Roof deck with grills + skyline views",
       "Dog run on-site — great for future pet",
@@ -1429,7 +1435,7 @@ export const listings: Listing[] = [
   {
     id: "16",
     title: "The Longwood — Balconies, Gym, Pet-Friendly, Near E Line",
-    price: 3500,
+    price: 4200,
     address: "1575 Tremont St, Boston, MA 02120",
     neighborhood: "JP",
     beds: 2,
@@ -1474,14 +1480,14 @@ export const listings: Listing[] = [
       commute: 90,
       walkability: 55,
       amenities: 70,
-      value: 78,
+      value: 55,
     },
     hardFilterStatus: {
       passes: false,
       failures: ["No in-unit laundry (on-site shared only)"],
     },
     aiSummary:
-      "Best commute balance in the search \u2014 7 min drive for Oreo, 20 min transit for Sugar Cookie via E Line. Gym, parking, pet-friendly, private balcony. But no in-unit laundry is a hard fail. The building is older and finishes are dated compared to new construction. Decent price for the location. Concierge is a nice touch.",
+      "2BR starts at $4,200 confirmed. Best commute balance in the search \u2014 7 min drive for Oreo, 20 min transit for Sugar Cookie via E Line. Gym, parking, pet-friendly, private balcony. But no in-unit laundry is a hard fail. The building is older and finishes are dated compared to new construction. Decent price for the location. Concierge is a nice touch.",
     aiNotes: [
       "FAILS: No in-unit laundry (on-site shared only)",
       "Best commute combo: 7 min drive + 20 min transit",
@@ -1597,7 +1603,7 @@ export const listings: Listing[] = [
     beds: 2,
     baths: 2,
     sqft: 1000,
-    score: 91,
+    score: 65,
     photoUrl: "https://picsum.photos/800/533?random=2001",
     isNew: true,
     hasGym: true,
@@ -1638,10 +1644,16 @@ export const listings: Listing[] = [
       amenities: 95,
       value: 90,
     },
-    hardFilterStatus: { passes: true, failures: [] },
+    hardFilterStatus: {
+      passes: false,
+      failures: [
+        "No confirmed 2BR availability \u2014 condo building with individual rentals, only 2 units total available",
+      ],
+    },
     aiSummary:
-      "THE find. 5 min drive for Oreo to Longwood. 18 min transit for Sugar Cookie via E Line. In-unit W/D, gym, garage, 2BR/2BA, LEED Silver, pet-friendly \u2014 all at $3,395. Steps from Fenwood Rd E Line stop and Route 39 bus. The Longwood Medical Area location means Oreo could practically walk to work. Oversize windows = great natural light. The only weakness is walkability to everyday errands (grocery 8 min, no close indie coffee shops), but transit access is phenomenal.",
+      "This is a condo building, not a managed apartment community \u2014 2BR availability is unconfirmed. Call to verify. If available: 5 min drive for Oreo to Longwood. 18 min transit for Sugar Cookie via E Line. In-unit W/D, gym, garage, 2BR/2BA, LEED Silver, pet-friendly \u2014 all at $3,395. Steps from Fenwood Rd E Line stop and Route 39 bus. The Longwood Medical Area location means Oreo could practically walk to work. Oversize windows = great natural light. The only weakness is walkability to everyday errands (grocery 8 min, no close indie coffee shops), but transit access is phenomenal.",
     aiNotes: [
+      "WARNING: This is a condo building, not a managed apartment community. 2BR availability is unconfirmed.",
       "5 min drive to BIDMC \u2014 shortest in the entire search",
       "Could walk or bike to work in good weather",
       "Fenwood Rd E Line stop is 2 min walk",
@@ -1761,7 +1773,7 @@ export const listings: Listing[] = [
     beds: 2,
     baths: 1,
     sqft: 750,
-    score: 72,
+    score: 45,
     photoUrl: "https://picsum.photos/800/533?random=2201",
     isNew: true,
     hasGym: true,
@@ -1808,10 +1820,11 @@ export const listings: Listing[] = [
         "Only 1 bathroom (need 1.5 minimum)",
         "750 sq ft \u2014 may be tight for 2BR (check bedroom sizes)",
         "Parking not confirmed",
+        "2BR availability unconfirmed \u2014 building may only have 1BR units",
       ],
     },
     aiSummary:
-      "The cheapest listing in the entire search at $2,795, and it has in-unit W/D and a gym. Riverway E Line stop is literally at the front door \u2014 0.0 miles. But only 1 bath and 750 sq ft is tight for a 2BR. Parking unknown. The price is unbeatable and you'd save $600-1,500/mo vs other options. Worth touring to see if the space works despite being small.",
+      "2BR availability is unconfirmed \u2014 building may only have 1BR units. The cheapest listing in the entire search at $2,795, and it has in-unit W/D and a gym. Riverway E Line stop is literally at the front door \u2014 0.0 miles. But only 1 bath and 750 sq ft is tight for a 2BR. Parking unknown. The price is unbeatable and you'd save $600-1,500/mo vs other options. Worth touring to see if the space works despite being small.",
     aiNotes: [
       "FAILS: Only 1 bathroom",
       "FAILS: 750 sq ft may be too small",
