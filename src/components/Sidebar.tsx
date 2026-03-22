@@ -107,7 +107,7 @@ export default function Sidebar() {
         {/* Bottom status area */}
         <div className="mx-4 mb-6 mt-4 rounded-xl bg-accent-light/60 px-4 py-3.5">
           <p className="text-xs font-medium text-accent leading-relaxed">
-            Tracking <span className="font-mono font-semibold">17</span> listings
+            Tracking <span className="font-mono font-semibold">21</span> listings
           </p>
           <p className="text-xs text-accent/70 mt-0.5 leading-snug">
             JP &middot; Brookline &middot; Roslindale
